@@ -77,8 +77,7 @@ uv pip install dbt-core dbt-bigquery
 
 ```bash
 gcloud auth application-default login
-gcloud config set project <your-project-id>
-gcloud auth application-default set-quota-project <your-project-id>
+gcloud auth application-default set-quota-project <https://console.cloud.google.com/bigquery?project=mini-compass>
 ```
 
 On the Google consent page, tick every permission box, including **Google Cloud data**. Without it, login fails.
