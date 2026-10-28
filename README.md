@@ -93,7 +93,7 @@ jaffle_shop:
     dev:
       type: bigquery
       method: oauth
-      project: <your-project-id>
+      project: <https://console.cloud.google.com/bigquery?project=mini-compass>
       dataset: jaffle_dev
       threads: 4
       location: EU
